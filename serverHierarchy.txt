@@ -1,0 +1,858 @@
+{
+    name: 'Editor Tools', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+        Transform, Prefab
+    }
+    children: {
+        {
+            name: 'Voxel Scene Helper', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Set Relative Mouse Mode Web Fix', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Trial Scene Selector', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Camera', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Events', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'CSM', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'InfluxDB', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Voxel Profiler', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Montage Select Window', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Voxelizer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, Script
+            }
+        }
+, {
+            name: 'Tools', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform
+            }
+            children: {
+                {
+                    name: 'Brush', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script, Script, Script
+                    }
+                    children: {
+                        {
+                            name: 'Brush VR Gizmo', pos: Vec3(-41.672, 4.833, 6.342), rot: Quat(0.0, -0.0, 0.0), scale: 0.10000000149012, active: true, save: true, components: {
+                                Transform, Script
+                            }
+                            children: {
+                                {
+                                    name: 'Line Drawer Invisible', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, MeshData, MeshRenderer
+                                    }
+                                }
+, {
+                                    name: 'Triangle Drawer Hidden', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, MeshRenderer, MeshData
+                                    }
+                                }
+, {
+                                    name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, MeshRenderer, MeshData
+                                    }
+                                }
+, {
+                                    name: 'Triangle Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, MeshRenderer, MeshData
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+, {
+                    name: 'UI Annotations List', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Measuring', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Labeler', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                    children: {
+                        {
+                            name: 'Labels', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                Transform, Script
+                            }
+                            children: {
+                                {
+                                    name: 'Label Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+, {
+                    name: 'Cursor', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Color Picker', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Annotate', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Paint Gizmo Visible', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+, {
+                    name: 'Paint Gizmo Hidden', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+            }
+        }
+, {
+            name: 'Editor', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, 0.0, -60), scale: 0.99999994039536, active: true, save: true, components: {
+                Transform, Script, Script, Script, Script, Script, Script, Script, Script, Script, Script, Script, Script, Script, Script
+            }
+            children: {
+                {
+                    name: 'Line Drawer Invisible', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0), scale: 1.0000001192093, active: true, save: false, components: {
+                        Transform, MeshData, MeshRenderer
+                    }
+                }
+, {
+                    name: 'Triangle Drawer Hidden', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0), scale: 1.0000001192093, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+, {
+                    name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0), scale: 1.0000001192093, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+, {
+                    name: 'Triangle Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0), scale: 1.0000001192093, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+            }
+        }
+, {
+            name: 'Zulip', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Montage Info', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+            children: {
+                {
+                    name: '0', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform
+                    }
+                }
+            }
+        }
+, {
+            name: 'Shape Manager', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, Script
+            }
+            children: {
+                {
+                    name: 'Prefab Shape', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                        Transform, Script, Script
+                    }
+                }
+            }
+        }
+, {
+            name: 'Voxel Data Edit Tools', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, Script, Script
+            }
+            children: {
+                {
+                    name: 'Prefab Voxel Selection Renderer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                        Transform, Script, Script
+                    }
+                }
+            }
+        }
+, {
+            name: 'Particles', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                Transform, Script, Script
+            }
+        }
+, {
+            name: 'Particle Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                Transform, Script, MeshData, MeshRenderer
+            }
+        }
+, {
+            name: 'Chat', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Avatars', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, VoxelData
+            }
+            children: {
+                {
+                    name: 'Client Manager', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                    children: {
+                        {
+                            name: 'Player Prefab', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script
+                            }
+                            children: {
+                                {
+                                    name: 'VR Hand Left', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, VoxelData, VoxelRenderer
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Model', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 0.035000000149012, active: true, save: true, components: {
+                                                Transform, Script, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'VR Hand Right', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, VoxelData, VoxelRenderer
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Model', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 0.035000000149012, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Avatar', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, VoxelData, VoxelRenderer
+                                    }
+                                }
+                            }
+                        }
+, {
+                            name: 'Interaction Drawer Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script
+                            }
+                        }
+                    }
+                }
+            }
+        }
+, {
+            name: 'Sharing', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Sky', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, Sky
+            }
+        }
+, {
+            name: 'Debug', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -12, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'Analytics', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'VoxelInspectTool', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+            children: {
+                {
+                    name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+, {
+                    name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+            }
+        }
+, {
+            name: 'Latency Tester', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'L Systems', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'NormalsInspectTool', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+            children: {
+                {
+                    name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                        Transform, MeshRenderer, MeshData
+                    }
+                }
+            }
+        }
+, {
+            name: 'Drone Dropper Game', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                Transform, Script
+            }
+            children: {
+                {
+                    name: 'Drone Prefab', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(-90, 0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                        Transform, Script, Script, VoxelData, VoxelRenderer
+                    }
+                    children: {
+                        {
+                            name: 'Drone Camera', pos: Vec3(0.0, -100.0, 0.0), rot: Quat(-90, 0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                Transform, Script
+                            }
+                        }
+, {
+                            name: 'Bomb', pos: Vec3(0.0, -100.0, -0.48), rot: Quat(-67.38, 0.0, 0.0), scale: 0.5, active: false, save: true, components: {
+                                Transform, Script, VoxelData, VoxelRenderer
+                            }
+                        }
+                    }
+                }
+, {
+                    name: 'Tank', pos: Vec3(0.0, -100.0, 0.83), rot: Quat(0.0, -0.0, 0.0), scale: 0.56000000238419, active: false, save: true, components: {
+                        Transform, Script, VoxelData, VoxelRenderer
+                    }
+                }
+, {
+                    name: 'Touch Joystick Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                        Transform, Script
+                    }
+                }
+            }
+        }
+, {
+            name: 'VR', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform
+            }
+            children: {
+                {
+                    name: 'Asset Browser VR', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'VR Controls', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script
+                    }
+                }
+, {
+                    name: 'Object Select VR Gizmo Left', pos: Vec3(-40.369, 4.917, 5.846), rot: Quat(-41.669, 23.554, -50.671), scale: 0.99999994039536, active: true, save: true, components: {
+                        Transform, Script, MeshData, MeshRenderer
+                    }
+                    children: {
+                        {
+                            name: 'Triangle Drawer Hidden', pos: Vec3(0.0, -0, 0.0), rot: Quat(0, -0, 0), scale: 1.0, active: true, save: false, components: {
+                                Transform, MeshRenderer, MeshData
+                            }
+                        }
+, {
+                            name: 'Triangle Drawer', pos: Vec3(0.0, -0, 0.0), rot: Quat(0, -0, 0), scale: 1.0, active: true, save: false, components: {
+                                Transform, MeshRenderer, MeshData
+                            }
+                        }
+                    }
+                }
+, {
+                    name: 'Object Select VR Gizmo Right', pos: Vec3(-41.603, 4.867, 6.373), rot: Quat(52.53, 37.752, 88.254), scale: 0.99999988079071, active: true, save: true, components: {
+                        Transform, Script, MeshData, MeshRenderer
+                    }
+                    children: {
+                        {
+                            name: 'Triangle Drawer Hidden', pos: Vec3(0.0, 0.0, 0), rot: Quat(-0, -0, -0), scale: 1.0, active: true, save: false, components: {
+                                Transform, MeshRenderer, MeshData
+                            }
+                        }
+, {
+                            name: 'Triangle Drawer', pos: Vec3(0.0, 0.0, 0), rot: Quat(-0, -0, -0), scale: 1.0, active: true, save: false, components: {
+                                Transform, MeshRenderer, MeshData
+                            }
+                        }
+                    }
+                }
+            }
+        }
+, {
+            name: 'FPS Prefab Helper', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script
+            }
+        }
+, {
+            name: 'FPS Game', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, Script, Prefab
+            }
+            children: {
+                {
+                    name: 'FPSBase', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script, Script
+                    }
+                    children: {
+                        {
+                            name: 'Player Prefab', pos: Vec3(0.0, 10.0, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script, Script, Script, Script, Script, VoxelData, VoxelRenderer
+                            }
+                            children: {
+                                {
+                                    name: 'Player Animator', pos: Vec3(0.0, 9.3, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                }
+, {
+                                    name: 'Camera Parent', pos: Vec3(0.0, 10.0, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Player Camera', pos: Vec3(0.0, 10.6, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                                Transform
+                                            }
+                                            children: {
+                                                {
+                                                    name: 'Shaker', pos: Vec3(0.0, 10.6, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                                        Transform, Script
+                                                    }
+                                                    children: {
+                                                        {
+                                                            name: 'FPS Cursor', pos: Vec3(0.0, 10.6, 75.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                                                Transform, Script, MeshData, MeshRenderer
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+, {
+                            name: 'Item Prefabs', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform
+                            }
+                            children: {
+                                {
+                                    name: 'Item Gun', pos: Vec3(0.02, 300.733, 0.5), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: true, save: true, components: {
+                                        Transform, Script, Script, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Rifle', pos: Vec3(0.02, 300.733, 0.5), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Paint', pos: Vec3(0.02, 300.733, 0.5), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: false, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Sniper', pos: Vec3(0.02, 300.733, 0.5), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: false, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Shotgun', pos: Vec3(0.02, 300.733, 0.5), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: false, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Muzzle', pos: Vec3(0.02, 300.808, -0.063), rot: Quat(0.0, -0.0, 0.0), scale: 0.24999979138374, active: true, save: true, components: {
+                                                Transform, Script
+                                            }
+                                        }
+, {
+                                            name: 'Line Drawer Invisible', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                Transform, MeshData, MeshRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Triangle Drawer Hidden', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                Transform, MeshRenderer, MeshData
+                                            }
+                                        }
+, {
+                                            name: 'Line Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                Transform, MeshRenderer, MeshData
+                                            }
+                                        }
+, {
+                                            name: 'Triangle Drawer', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                Transform, MeshRenderer, MeshData
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Bricks', pos: Vec3(0.0, 301.984, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 2.0, active: true, save: true, components: {
+                                        Transform, Script, VoxelData, VoxelRenderer
+                                    }
+                                }
+, {
+                                    name: 'Long', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Long', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Foundation', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, VoxelData, VoxelRenderer
+                                    }
+                                }
+, {
+                                    name: 'Item Rocket Launcher', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.000000834465, active: true, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Prefab Rocket', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 3.0000023841858, active: false, save: true, components: {
+                                                Transform, Script, Script, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Model', pos: Vec3(-0.1, 300.733, 0.2), rot: Quat(180.0, -0, 180.0), scale: 1.000000834465, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                            children: {
+                                                {
+                                                    name: 'Muzzle', pos: Vec3(-0.1, 300.883, -0.5), rot: Quat(0.0, 0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                        Transform
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Item Material Launcher', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.000000834465, active: true, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Prefab Rocket', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.000000834465, active: false, save: true, components: {
+                                                Transform, Script, Script, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Model', pos: Vec3(-0.1, 300.733, 0.2), rot: Quat(180.0, -0, 180.0), scale: 1.000000834465, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                            children: {
+                                                {
+                                                    name: 'Muzzle', pos: Vec3(-0.1, 300.883, -0.5), rot: Quat(0.0, 0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                        Transform
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Item Spray Can', pos: Vec3(0.02, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Muzzle', pos: Vec3(0.02, 300.898, -0.065), rot: Quat(0.0, -0.0, 0.0), scale: 0.99999916553497, active: true, save: true, components: {
+                                                Transform
+                                            }
+                                        }
+, {
+                                            name: 'Model', pos: Vec3(0.02, 300.733, 0.0), rot: Quat(0.0, -89.98, 0.0), scale: 0.1499999910593, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Target', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, Script, VoxelData, VoxelRenderer
+                                    }
+                                }
+, {
+                                    name: 'Turret', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Model', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 0.4099999666214, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Turret Head', pos: Vec3(0.0, 300.73, 0.0), rot: Quat(90, -0.0, 0.0), scale: 0.51999998092651, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Orbital Strike', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Device 1', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(180.0, -86, 180.0), scale: 0.18999999761581, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Cloud', pos: Vec3(0.0, 300.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                        Transform, Script, Script
+                                    }
+                                }
+, {
+                                    name: 'Item Melee', pos: Vec3(0.02, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Model', pos: Vec3(0.02, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Item Copy Tool', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0000001192093, active: true, save: true, components: {
+                                        Transform, Script, Script, Script
+                                    }
+                                    children: {
+                                        {
+                                            name: 'Model', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(180.0, -0, 180.0), scale: 0.14999997615814, active: true, save: true, components: {
+                                                Transform, VoxelData, VoxelRenderer
+                                            }
+                                        }
+, {
+                                            name: 'Muzzle', pos: Vec3(0.0, 300.898, -0.065), rot: Quat(0.0, -0.0, 0.0), scale: 0.99999904632568, active: true, save: true, components: {
+                                                Transform
+                                            }
+                                        }
+, {
+                                            name: 'Prefab Copy Object', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                                Transform, Script, Script, VoxelData, VoxelRenderer
+                                            }
+                                        }
+                                    }
+                                }
+, {
+                                    name: 'Bricks Small', pos: Vec3(0.0, 300.733, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 0.25, active: true, save: true, components: {
+                                        Transform, Script, VoxelData, VoxelRenderer
+                                    }
+                                }
+                            }
+                        }
+, {
+                            name: 'Touch Joystick Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script
+                            }
+                        }
+, {
+                            name: 'Touch Button Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script
+                            }
+                        }
+, {
+                            name: 'Touch Dragger Prefab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                                Transform, Script
+                            }
+                        }
+, {
+                            name: 'Touch Controls', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                Transform
+                            }
+                            children: {
+                                {
+                                    name: 'Joystick Left', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+, {
+                                    name: 'Dragger Right', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+, {
+                                    name: 'Button Action', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+, {
+                                    name: 'Button Grab', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+, {
+                                    name: 'Button Jump', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+, {
+                                    name: 'Button Respawn', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                        Transform, Script
+                                    }
+                                }
+                            }
+                        }
+, {
+                            name: 'Players', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: false, components: {
+                                Transform
+                            }
+                        }
+                    }
+                }
+, {
+                    name: 'FPS Toggle', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+                        Transform, Script, Script
+                    }
+                }
+, {
+                    name: 'FPS Game Mode', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                        Transform, Script, Script, Script
+                    }
+                    children: {
+                        {
+                            name: 'FPS Scene', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                                Transform, Prefab
+                            }
+                            children: {
+                                {
+                                    name: 'Island Temple', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 4.0, active: true, save: true, components: {
+                                        Transform, VoxelData, VoxelRenderer
+                                    }
+                                }
+, {
+                                    name: 'Island Castle', pos: Vec3(0.0, 0.0, -290.45), rot: Quat(0.0, -0.0, 0.0), scale: 5.0, active: false, save: true, components: {
+                                        Transform, VoxelData, VoxelRenderer
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+{
+    name: 'Voxel Scene', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+        Transform
+    }
+    children: {
+        {
+            name: 'Voxel Scene Dynamic', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, VoxelData, VoxelRenderer
+            }
+        }
+, {
+            name: 'Voxel Scene Static', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform, VoxelDataStatic(center = Vec3(0.125, 25.0, 0.125), size = Vec3(200.75, 60.0, 200.75)), VoxelRenderer
+            }
+        }
+    }
+}
+
+{
+    name: 'View Counter', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+        Transform
+    }
+    children: {
+        {
+            name: '0', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform
+            }
+        }
+    }
+}
+
+{
+    name: 'Spawn Points', pos: Vec3(0.0, 0.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+        Transform
+    }
+    children: {
+        {
+            name: 'Spawn 1', pos: Vec3(0.0, 32.0, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform
+            }
+        }
+    }
+}
+
+{
+    name: 'Top Down Game', pos: Vec3(0.0, 20.85, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: false, save: true, components: {
+        Transform, Script, Script, Prefab, Script, Script, Script, Script, Script
+    }
+    children: {
+        {
+            name: 'LeaderboardStorageStrictCamel 6 QuickIguana 6 GloomyKangaroo 4 TenseGoat 4 WonderfulFox 4 FriendlyPanther 3 RudeSwan 3 GreatAlbatross 3 SpeedyJaguar 3 SnugChimpanzee 3', pos: Vec3(0.0, 20.85, 0.0), rot: Quat(0.0, -0.0, 0.0), scale: 1.0, active: true, save: true, components: {
+                Transform
+            }
+        }
+    }
+}
