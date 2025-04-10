@@ -28,7 +28,10 @@ pip install uv
 uv pip install mcp-core fastapi uvicorn
 ```
 
-5. In server.py replace `filepath` with your own
+5. In server.py replace `filepath` with your own created file
+
+6. In atomomtage `Data\Studio\Script\ae\bootstrap.lua` add the bottom dofile your lua file that you creted for `filepath` `dofile('ae/mcpTest.lua')`
+
 
 ## Running the Server
 
